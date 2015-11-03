@@ -1,0 +1,26 @@
+#Build Instructions#
+
+##Build Environment##
+
+The software was developed in Eclipse, and this is what has been used to produce a runnable jar file for use in the application.
+To create this jar, import the project into Eclipse. Ensure all source files, images and external libraries are on the build path
+for the project. Then right click the top level folder, and select `Create runnable jar`. Name this `MIDIBlocks.jar`. 
+
+##Producing the Executable##
+
+Launch4j has been used to convert the .jar to a .exe. Launch4j can be installed as per instructions on their website, 
+<http://launch4j.sourceforge.net/>. Then run Launch4j and import the configuration `launch4jconf.xml` as included in the
+repository. Select `build wrapper` and this will produce a .exe file, `MIDIBlocks.exe`.
+
+##Creating the installer##
+
+NSIS is used to create an installer for the software. NSIS can be installed via <http://nsis.sourceforge.net/Main_Page>. 
+After installing NSIS, simply right click the `midiblocks_setup.nsi` file and select `Compile NSIS script`. This will then
+produce an installation file in the same folder. 
+
+##Firmware Build Instructions##
+
+The code can simply be imported as a project into Atmel Studio, then compiled. There are no special requirements.
+
+<!-- Markdeep: --><style class="fallback">body{white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="http://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
+

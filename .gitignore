@@ -1,0 +1,51 @@
+.DS_Store
+
+*.swp
+*~
+
+bin/
+lib/
+MIDIBlocks/fonts/
+MIDIBlocks/src/jre1.8.0_60
+MIDIBlocks/jre1.8.0_60
+
+# Gradle
+build
+.gradle
+
+# Eclipse
+.classpath
+.project
+.settings
+.metadata
+
+# IntelliJ IDEA
+*.iml
+.idea
+
+# Sample files
+*.mid
+*.csv
+*.conf
+*.exe
+
+# Resources
+*.svg
+*.so
+*.jar
+
+rxtx-2.1-7-bins-r2/
+
+# Crash reports
+*.log
+
+/bin
+
+
+# Merge conflicts
+*.orig
+
+
+# Local sonar installations
+sonar-project.properties
+.sonar/
